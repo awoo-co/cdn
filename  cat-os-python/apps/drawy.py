@@ -83,13 +83,11 @@ color_button.pack(pady=5)
 line_button = tk.Button(window, text="Line", command=enable_line_drawing)
 line_button.pack(side=tk.LEFT, padx=5)
 
-rect_button = tk.Button(window, text="Rectangle", command=enable_shape_drawing)
+rect_button = tk.Button(window, text="Rectangle", command=lambda: set_shape("rectangle"))
 rect_button.pack(side=tk.LEFT, padx=5)
-rect_button.config(command=lambda: set_shape("rectangle"))
 
-oval_button = tk.Button(window, text="Oval", command=enable_shape_drawing)
+oval_button = tk.Button(window, text="Oval", command=lambda: set_shape("oval"))
 oval_button.pack(side=tk.LEFT, padx=5)
-oval_button.config(command=lambda: set_shape("oval"))
 
 # Initially set to line drawing
 enable_line_drawing()

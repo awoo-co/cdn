@@ -1,1 +1,0 @@
-CatOS updater to update CatOS in Electron

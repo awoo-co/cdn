@@ -1,8 +1,0 @@
-{
-  "latest_version": "1.2",
-  "release_notes": "",
-  "update_package": {
-    "url": "https://teslakitty-cdn.netlify.app/cat-os-update/catos-update-1.0.0-x86_64.zip",
-    "sha256sum": ""
-  }
-}

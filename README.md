@@ -1,2 +1,2 @@
 # cdn
-## an cdn for teslakitty and others
+## an cdn for awoo-co and others
